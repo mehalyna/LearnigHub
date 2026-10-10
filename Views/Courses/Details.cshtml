@@ -1,0 +1,8 @@
+@model Course
+@{
+    ViewData["Title"] = "Course details";
+}
+<h1>@Model.Title</h1>
+<p>@Model.Description</p>
+<p>Duration: @Model.DurationWeeks weeks</p>
+<a asp-controller="Courses" asp-action="Index">Back to courses</a>

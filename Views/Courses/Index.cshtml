@@ -1,0 +1,16 @@
+@model IEnumerable<Course>
+@{
+    ViewData["Title"] = "Courses";
+}
+<h1>Courses</h1>
+<p>Lab 1: add a Details action and a Details view.</p>
+<ul>
+@foreach (var course in Model)
+{
+    <li>
+        <strong>@course.Title</strong>
+        <span>(@course.DurationWeeks weeks)</span>
+        <!-- TODO LAB 1: add a link to Details using Tag Helpers -->
+    </li>
+}
+</ul>

@@ -1,0 +1,4 @@
+body {font-family: system-ui, sans-serif; max-width: 850px; margin: 0 auto; padding: 1.5rem; line-height: 1.55; color: #1d2939;}
+nav {display:flex;gap:1.5rem;border-bottom:1px solid #ddd;padding-bottom:1rem}
+a {color:#155eef} main {min-height:65vh} footer {border-top:1px solid #ddd;padding-top:1rem;color:#667085}
+li {padding:.5rem 0}
